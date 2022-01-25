@@ -1,5 +1,5 @@
-import { NextPage } from 'next'
-import Link from 'next/link'
+import { NextPage } from 'next';
+import Link from 'next/link';
 
 const Checkout: NextPage = () => {
 	return (
@@ -9,7 +9,7 @@ const Checkout: NextPage = () => {
 				<a className='text-green-700'>Back to catalog</a>
 			</Link>
 		</>
-	)
-}
+	);
+};
 
 export default Checkout

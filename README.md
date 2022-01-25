@@ -3,11 +3,12 @@
 ## Used Technologies:
 
 - TypeScript
-- React 
+- Next.js 
 - React Hooks
 - Redux Toolkit
 - RTK Query
 - React Icons
+- React Skeleton
 
 ## Requirements
 

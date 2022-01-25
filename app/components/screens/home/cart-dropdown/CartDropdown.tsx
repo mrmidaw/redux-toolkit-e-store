@@ -58,11 +58,7 @@ const CartDropdown: FC = () => {
 									</button>
 								</div>
 							))}
-							<div>
-								{cart.reduce((previous: any, current) => {
-									return previous.price + current.price
-								})}
-							</div>
+
 							<PlaceOrder />
 						</>
 					) : (

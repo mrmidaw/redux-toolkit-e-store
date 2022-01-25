@@ -7,6 +7,7 @@
 - React Hooks
 - Redux Toolkit
 - RTK Query
+- React Icons
 
 ## Requirements
 

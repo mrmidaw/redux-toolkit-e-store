@@ -1,12 +1,8 @@
-import { FC } from "react";
+import type { NextPage } from 'next'
+import Home from '../app/components/screens/home/Home'
 
+const HomePage: NextPage = () => {
+	return <Home />
+}
 
-const Home: FC = () => {
-  return (
-    <div className='text-5xl'>
-      Redux Toolkit
-    </div>
-  );
-};
-
-export default Home;
+export default HomePage
